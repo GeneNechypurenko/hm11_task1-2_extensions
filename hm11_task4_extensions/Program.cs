@@ -1,5 +1,9 @@
 ﻿using hm11_task4_extensions;
-using hm11_task4_extensions.hm11_task4_extensions;
+
+//Point3D p = new Point3D(3, 2, 5);
+//Console.WriteLine($"{p}\n");
+//Point3D pr = new Point3D();
+//Console.WriteLine($"{pr}\n");
 
 Random rnd = new Random();
 
