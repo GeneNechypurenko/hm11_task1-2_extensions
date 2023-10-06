@@ -1,22 +1,13 @@
 ﻿using hm11_task4_extensions;
 using hm11_task4_extensions.hm11_task4_extensions;
 
-Point3D[] point = new Point3D[]
-{
-    new Point3D(),
-    new Point3D(),
-    new Point3D(),
-    new Point3D(),
-    new Point3D(),
-    new Point3D(),
-    new Point3D(),
-    new Point3D(),
-    new Point3D(),
-    new Point3D(),
-    new Point3D(),
-    new Point3D(),
-    new Point3D(),
-};
+Random rnd = new Random();
+
+int length = rnd.Next(3, 15);
+
+Point3D[] point = new Point3D[length];
+
+for (int i = 0; i < length; ++i) { point[i] = new Point3D(); }
 
 foreach (var el in point) { Console.WriteLine(el); }
 
